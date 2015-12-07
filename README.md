@@ -7,7 +7,11 @@ Erster Teil (x)
 Zweiter Teil ( )
 
 ##Day 2
-Noch nicht angefangen
+Erster Teil ( )
+
+Zweiter Teil ( )
 
 ##Day 3
-Lösung im Kopf
+Erster teil ( )
+
+Zweiter Teil ( )
