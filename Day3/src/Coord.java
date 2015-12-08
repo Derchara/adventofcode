@@ -16,7 +16,7 @@ public class Coord<X,Y> {
 	
 	public boolean equals(Object o) {
 		if (!(o instanceof Coord)) return false;
-		Coord coordo = (Coord) o;
+		Coord<X,Y> coordo = (Coord<X, Y>) o;
 		return this.x.equals(coordo.getX()) &&
 				this.y.equals(coordo.getY());
 	}
