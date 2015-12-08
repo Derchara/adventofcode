@@ -1,0 +1,18 @@
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		try {
+			byte[] bytesOfMessage = "abcdef609043".getBytes("UTF-8");
+			MessageDigest md = MessageDigest.getInstance("MD5");
+			byte [] thedigest = md.digest(bytesOfMessage);
+			System.out.println(thedigest.toString());
+		} catch (NoSuchAlgorithmException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

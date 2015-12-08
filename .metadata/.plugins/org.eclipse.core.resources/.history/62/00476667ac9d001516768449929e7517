@@ -1,0 +1,24 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String file = args[0];
+		int i = 0;
+		try(BufferedReader br = new BufferedReader(new FileReader(file))) {
+			for(String line; (line = br.readLine()) != null;) {
+				Pattern p = Pattern.compile("(\\d+)x(\\d+)x(\\d+)");
+				Matcher m = p.matcher(line);
+				int l = Integer.parseInt(m.group(1));
+				String ws = m.group(2);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println(i);
+	}
+
+}

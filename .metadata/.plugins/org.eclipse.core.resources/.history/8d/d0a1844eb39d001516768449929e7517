@@ -1,0 +1,24 @@
+import java.security.MessageDigest;
+
+import org.apache.commons.codec.binary.Hex;
+
+public class Main {
+
+	public static void main(String[] args) {
+		try {
+			byte[] bytesOfMessage = "abcdef609043".getBytes("UTF-8");
+			MessageDigest md = MessageDigest.getInstance("MD5");
+			byte [] thedigest = md.digest(bytesOfMessage);
+			String hexString = new String(Hex.encodeHex(thedigest));
+			int i = 0;
+			while (hexString.startsWith("00000")) {
+				bytesOfMessage = (args[0]+i).getBytes("UTF-8");
+				md.update(bytesOfMessage);
+				thedigest = md.digest();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

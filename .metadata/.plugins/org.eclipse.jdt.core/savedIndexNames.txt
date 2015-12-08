@@ -1,21 +1,5 @@
-INDEX VERSION 1.126+C:\Users\lars\adventofcode\.metadata\.plugins\org.eclipse.jdt.core
-2035554723.index
-4044200546.index
-1570939741.index
-3193006064.index
-2998212994.index
-746519164.index
-2589001729.index
-3899914096.index
-3190770268.index
-3349437070.index
-4146572984.index
-3380705583.index
-1729207038.index
+INDEX VERSION 1.127+C:\Users\lars\adventofcode\.metadata\.plugins\org.eclipse.jdt.core
+3119222176.index
 663689219.index
-3527009751.index
-1195470921.index
-2455487629.index
-1929396291.index
-3092092397.index
-221081594.index
+1351100565.index
+3946439479.index
