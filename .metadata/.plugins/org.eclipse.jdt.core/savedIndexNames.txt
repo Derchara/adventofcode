@@ -1,5 +1,2 @@
 INDEX VERSION 1.127+C:\Users\lars\adventofcode\.metadata\.plugins\org.eclipse.jdt.core
 3119222176.index
-663689219.index
-1351100565.index
-3946439479.index

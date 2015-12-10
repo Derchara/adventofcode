@@ -1,0 +1,11 @@
+
+public class Day6 {
+	
+	static boolean[1000][1000] lights;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

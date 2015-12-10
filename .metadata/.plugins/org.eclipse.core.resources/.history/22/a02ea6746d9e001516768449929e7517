@@ -1,0 +1,12 @@
+
+public class Day6 {
+	
+	static boolean[][] lights;
+
+	public static void main(String[] args) {
+		for (int i = 0; i < 1000; i++) {
+			lights[i] = new Boolean[1000];
+		}
+	}
+
+}
